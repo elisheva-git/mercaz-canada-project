@@ -1,0 +1,528 @@
+
+.text_white_i{
+    color: white;
+    font-size: 17px; 
+    font-weight: 100;
+    margin-right: 3px;
+    margin-left: 20px;
+}
+
+.btn {
+    display:block;
+    margin-right: auto;
+    margin-left: auto; 
+    width: 200px;
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    /* margin-right: 38vw; */
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color:black;
+  border-color: black;
+}
+
+.div_img{
+    height: 55vh;
+    width: 100%;
+    /* overflow: hidden; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 7px gray;
+}
+.img_about{
+    height: 45vh;
+    width: 100%;
+    background-image: url(jpg/about.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img_groups{
+    height: 55vh;
+    width: 100%;
+    background-image: url(jpg/groups_in.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.white{
+    width: 84%;
+    margin: 2.5%;
+    padding: 5%;
+    background-color: white;
+    border-radius: 5px;
+}
+.title{
+    text-align: center;
+    color:#00aeef ;
+    font-weight: 200;
+    font-size: 4vh;
+    margin: 0px;
+}
+.f{
+    display: flex;
+    align-items: center;
+}
+.drow{
+    width: 50%;
+}
+
+.div_price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 100;
+    font-size: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+} 
+.btn_round{
+    height: 25px;
+    width: 25px;
+    color: white;
+    background-color: #00aeef;
+    border-radius:50%;
+    margin: 5px;
+    border: none;
+    border-color: #00aeef;
+}
+.btn_round:hover{
+    background-color: #dc3326;
+}
+.shekel{
+    color:black;
+    font-size:10px;
+}
+.input{
+    width: 50px;
+    padding: 2px;
+}
+
+.flex_colum{
+    display: flex;
+    flex-direction: column;
+}
+.dalete_btn{
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dc3326;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    padding: 1px;
+}
+
+.div_product{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.5px solid grey;
+    border-radius: 2px 2px;
+    padding: 4%;
+}
+.padding{
+    padding: 5px;
+}
+form:invalid{
+    border-color: red;
+}
+.div_buttons_shopping{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    margin-right: 55%;
+    margin-top: 4vh;
+}
+/* איקונים מעבר תמונות דף הבית */
+.div_icon_angle{
+    position: absolute;
+    top: 55vh;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.angle{
+    font-size: 7vw;
+    text-shadow: 0px 0px 2px black;
+    padding: 1vw;
+    color: white;
+    opacity: 0.6;
+}
+
+.angle:hover{
+    opacity: 1;
+}
+
+.price_a{
+    position : absolute;
+    right : 44vw;
+}
+
+/* עיצוב הפורם */
+
+.white-form{
+    width: 80%;
+    margin: 3vw;
+    margin-right: 7vw;
+    padding: 2vw;
+    background-color: white;
+    border-radius: 5px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.white-form input{
+   width: 150px;
+}
+.header_form{
+    display: flex;
+    justify-content: center;
+    color: #00aeef;
+    font-weight: 100;
+    font-size: 26px;
+}
+.container_form{
+    display: flex;
+    width: 90vw;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.A,.B{
+    border: 1px solid black;
+    border-radius: 3px 3px;
+    padding: 2%;
+    padding-top: 1%;
+    height: 38%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+}
+.A{
+    width: 20%;
+}
+.B input{
+    width: 15%;
+}
+#name_own_card input{
+    width: 40%;
+}
+.btn_form{
+    width: 170px;
+}
+
+.input_pay{
+    border: red 1px solid;
+}
+
+.error{
+    display: inline;
+    color: red;
+    font-size: 13px;
+}
+
+.hidden{
+    display: none;
+}
+
+.chickweed{
+    color: red;
+    font-size: 16px;
+    margin-right: 17.5vw;
+}
+/* פרסומת */
+.background_ad{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(256, 256, 256, 0.5);
+    display: flex;
+    justify-content: center;
+    right: 0px;
+    top: 0px;
+}
+.div_ad{
+    position: fixed;
+    z-index: 3;
+    opacity: 1;
+    width: 32vw;
+    height:100%;
+    background-image: url(jpg/img_ad.jpg);
+    background-repeat: round;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn_ad{
+    height: 25px;
+    width: 25px;
+    color: white;
+    background-color: #dc3326;
+    border: none;
+    border-color: #dc3326;
+    font-size: 15px;
+    opacity: 1;
+    position: fixed;
+    top: 1px;
+}
+
+.btn_ad:hover{
+    background-color: #cf2a1e;
+}
+
+.bill{
+    width: 50vw;
+    padding: 2vw;
+    background-color: white;
+    border-radius: 5px;
+    line-height: 3;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-bottom: 5vh;
+}
+
+.div_atrac_bill{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid black;
+}
+
+.div_attraction{
+    border: 1.5px solid black;
+    border-radius: 3px 3px;
+    padding: 4%;
+}
+
+
+  /* הריחוף על לינק אטרקציות */
+
+.ul_attraction{
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    margin-right: -2vw;
+}
+
+.ul_attraction a{
+    text-decoration-line: none;
+    padding: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: black;
+    font-size:20px;
+    font-weight: 300;
+    width:10vw;
+    background-color: rgba(256, 256, 256, 0.7);
+}
+
+.ul_attraction a:hover{
+    background-color: #dc3545;
+    color: white;
+}
+
+.link_atrac{
+    position: absolute;
+}
+
+.groups_link{
+    margin-right: 9vw;
+}
+.div_kapiteria{
+    position: relative;
+    width: 45%;
+    height: 40%;
+    background-repeat: no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.img_k{
+    width: 100%;
+}
+
+/* רספונסיביות: */
+/* גודל של טבלט */
+@media screen and (max-width: 900px){
+    .f{
+        flex-direction: column;
+    }
+    .drow{
+        width: 70%;
+    }
+    #footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .div_product{
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+    .price_a{
+        position: static;
+        right: 0;
+    }
+    #container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .atraction{
+        height: 28.5vw;
+        width: 45.5vw;
+        overflow: hidden;
+    }
+    .title_fun{
+        height: 13vw;
+        width: 92vw;
+        margin-right: 1vw;
+    }
+    .title_fun span{
+        font-size: 9vw;
+    }
+    .imjheader{
+        height: 40vw;
+    }
+    .div_map{
+        width: 100%;
+        height: 40vh;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    /* פורם */
+    .container_form{
+        flex-direction: column;
+        align-items: center;
+    }
+    .container_form div{
+        width: 60%;
+    }
+    .B div{
+        width: 100%;
+    }
+    .B input{
+        width: 20%;
+    }
+    .B{
+        margin-top: 2vh;
+    }
+    .div_atrac_bill{
+        flex-direction: column;
+    }
+    .bill{
+        line-height: 2;
+    }
+    /* סל הקניות */
+    .div_buttons_shopping{
+        margin-right: 0;
+    }
+    /* ביטול הריחוף על לינק אטרקציות */
+    .ul_attraction a{
+        display: none;
+    }
+    .link_atrac{
+        position: static;
+    }
+    .groups_link{
+        margin-right: 0;
+    }
+    /* לינקים ראשי */
+    .linkhead a{
+        font-size: 23px;
+        margin-left: 3vw;
+    }
+    .linkhead a:hover{
+        border-bottom: solid #db3326;
+        padding-bottom: 9px;
+    }
+    .linkhead {
+        margin-right: 10vw;
+    }
+    .div_product .f{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .div_icon_angle{
+        top: 45vh;
+    }
+}
+@media screen and (max-width: 680px){
+    .linkhead a{
+        font-size: 13px;
+        margin-left: 2vw;
+    }
+    .linkhead {
+        margin-right: 4vw;
+    }
+    .img_pingwin{
+        width: 50%;
+    }
+    .img_groups{
+        background-position: 0;
+    }
+}
+@media screen and (max-width: 520px){
+    .linkhead a{
+        font-size: 13px;
+        margin-left: 2vw;
+    }
+    .linkhead {
+        margin-right:3px;
+        font-size: 2px;
+
+    }
+    .linkhead a:hover{
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+    .atraction{
+        height: 40vw;
+        width: 85vw;
+        margin-right: 4vw;
+        overflow: hidden;
+    }
+    .title_fun{
+        height: 15vw;
+        width: 85vw;
+        margin-right: 1vw;
+    }
+    .title_fun span{
+        font-size: 8vw;
+    }
+    .title_atrac{
+        font-size: 5vw;
+    }
+    .div_icon_angle{
+        top: 40vh;
+    }
+    .div_img{
+        height: 35vh;
+    }
+    .div_icon_angle{
+        top: 25vh;
+    }
+}

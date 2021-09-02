@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="jpg/pin1.ico">
+    <title> מרכז קנדה | סל הקניות שלכם / הזמנה</title>
+    <link rel="stylesheet" href="style_1.css" />
+    <link rel="stylesheet" href="style_2.css" />
+    <link href="icons/css/all.css" rel="stylesheet">
+</head>
+
+<body class="body_homepage">
+    <div id="head">
+        <img class="img_pingwin" src="jpg/pinhead.png">
+        <div id="button_up">
+            <div class="div_search">
+                <input type="text" placeholder="חפש...." class="input_search">
+                <div class="ul_search"></div>
+            </div>
+            <button class="btn_shop_in"><i class="fas fa-shopping-cart i_shop"></i> סל הקניות שלי</button>
+        </div>
+        <div class="linkhead">
+            <a href="homepage.html">דף הבית</a>
+            <a href="abaut.html">אודות</a>
+            <a href="homepage.html#container" class="link_atrac">אטרקציות</a>
+            <a href="groups.html" class="groups_link">קבוצות וימי כיף</a>
+            <a href="pay.html">לתשלום</a>
+        </div>
+    </div>
+    <div id="container">
+        <div class="white-form">
+            <form name="paying">
+                <span class="header_form">הרשמה למערכת</span>
+                <span class="chickweed">*השדות המסומנים בכוכבית הינן שדות חובה</span>
+                <div class="container_form">
+                    <div class="A">
+                        <div id="first_name">
+                            <label>שם פרטי:</label><br>
+                            <input  type="text" class="name" name="first_name"/>
+                        </div>
+                        <div id="last_name">
+                            <label>*שם משפחה:</label><br>
+                            <input class="must name" type="text" name="last_name"/>
+                        </div>
+                        <div id="phone">
+                            <label>*טלפון:</label><br>
+                            <input class="must num" type="text" name="phone"/>
+                            <span class="error phone hidden">מספר טלפון לא חוקי</span>
+                        </div>
+                        <div id="e-mail">
+                            <label for="e-mail">דואר אלקטרוני:</label><br>
+                            <input type="email" name="e-mail" />
+                            <span class="error e-mail hidden">כתובת דוא"ל לא חוקית</span>
+                        </div>
+                    </div>
+                    <div class="B">
+                        <!-- <span>פרטי כרטיס אשראי:</span> -->
+                        <div id="card_number">
+                            <label>*מספר אשראי:</label><br>
+                            <input  type="text"  class="c num c_no" name="card_number_1"/>
+                            <input class="must c num" type="text" name="card_number_2"/>
+                            <input class="must c num" type="text" name="card_number_3"/>
+                            <input class="must c num" type="text" name="card_number_4"/>
+                            <span class="error card hidden">מספר אשראי לא חוקי</span>
+                        </div>
+                        <div id="attacker">
+                            <label>*תוקף:</label><br>
+                            <input class="must num" type="number" name="attacker_year" min="20" max="99"/>
+                            <span>/</span>
+                            <input class="must num" type="number" name="attacker_month"/>
+                            <span class="error attacker hidden">תוקף לא חוקי</span>
+                        </div>
+                        <div id="cvv">
+                            <label>*cvv:</label><br>
+                            <input class="must num" type="text" name="cvv"/>
+                            <span class="error cvv hidden">cvv  לא חוקי</span>
+                        </div>
+                        <div id="name_own_card">
+                            <label>*שם בעל הכרטיס:</label><br>
+                            <input class="must name" type="text" name="name_own_card" />
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn_form" type="submit">סיום הזמנה</button>
+            </form>
+        </div>
+    </div>
+    <div id="footer">
+        <span class="text_white">המרכז הלאומי לספורט החורף בישראל</span><br>
+        <span class="text_blue">לכל שאלה, בקשה ורכישת כרטיסים נשמח לתת לכם שירות</span><br>
+        <span class="text_white_i"><i class="i_footer fas fa-map-marker-alt"></i>כתובת : הראשונים 1 מטולה  1029   </span>
+        <span class="text_white_i"><i class="i_footer fas fa-phone-alt"></i>טלפון : 04-6950370</span>
+        <span class="text_white_i"><i class="i_footer fas fa-map-marker-alt"></i>פקס : 04-6902985</span>
+        <span class="text_white_i"><i class="i_footer fas fa-envelope"></i>דוא"ל : kabala@kanada-centre.co.il</span><br>
+        <span class="text_blue">התמונות באתר להמחשה בלבד</span>
+    </div>
+    <script src="jquery-3.5.1.js"></script>
+    <script src="pay.js"></script>
+    <script src="several.js"></script>
+</body>
+
+</html>
